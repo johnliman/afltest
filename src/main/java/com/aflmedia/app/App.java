@@ -4,7 +4,12 @@ public class App
 {
     public static void main( String[] args )
     {
-        CircleGame game = new CircleGame(5, 2);
+
+        try {
+            CircleGame game = new CircleGame(5, 2);
+        } catch (AflMediaException e) {
+            e.printStackTrace();
+        }
     }
 
 }

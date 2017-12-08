@@ -31,8 +31,29 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testCircleGame() throws Exception
     {
-        assertTrue( true );
+        CircleGame game = new CircleGame(5, 2);
+        assertTrue(game.getWinningChild() == 3);
     }
+
+    public void testCircleGameKGreaterThanChildren() throws Exception
+    {
+        CircleGame game = new CircleGame(66, 100);
+        assertEquals(game.getWinningChild(), 7);
+
+    }
+
+    public void testCircleGameException()
+    {
+        try
+        {
+            CircleGame game = new CircleGame(0, 4);
+        }
+        catch (AflMediaException ame)
+        {
+            assertEquals(ame.getMessage(), "To play the game there needs to be more than 1 child.");
+        }
+    }
+
 }

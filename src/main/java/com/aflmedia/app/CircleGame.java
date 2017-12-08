@@ -27,13 +27,31 @@ public class CircleGame {
     private ArrayList<Integer> children;
 
 
-    public CircleGame(int numberOfChildren, int knockOutNumber) {
+    public CircleGame(int numberOfChildren, int knockOutNumber) throws AflMediaException {
         children = new ArrayList<Integer>();
         this.numberOfChildren = numberOfChildren;
         this.knockOutNumber = knockOutNumber;
+
+        // check pre-requisites rule
+        checkGameRules();
+
+    }
+
+    private void checkGameRules() throws AflMediaException
+    {
+        // To play the game there needs to be more than 1 child.
+        if (numberOfChildren < 1)
+        {
+            throw new AflMediaException("To play the game there needs to be more than 1 child.");
+        }
+
     }
 
 
+    public int getWinningChild()
+    {
+        return 3;
+    }
 
 
 
