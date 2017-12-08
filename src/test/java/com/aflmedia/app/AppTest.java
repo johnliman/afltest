@@ -34,12 +34,14 @@ public class AppTest
     public void testCircleGame() throws Exception
     {
         CircleGame game = new CircleGame(5, 2);
+        game.play();
         assertTrue(game.getWinningChild() == 3);
     }
 
     public void testCircleGameKGreaterThanChildren() throws Exception
     {
         CircleGame game = new CircleGame(66, 100);
+        game.play();
         assertEquals(game.getWinningChild(), 7);
 
     }

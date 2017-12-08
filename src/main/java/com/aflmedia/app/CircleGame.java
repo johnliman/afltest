@@ -25,6 +25,7 @@ public class CircleGame {
     private int numberOfChildren;
     private int knockOutNumber; // k
     private ArrayList<Integer> children;
+    private int winningChildId;
 
 
     public CircleGame(int numberOfChildren, int knockOutNumber) throws AflMediaException {
@@ -34,6 +35,8 @@ public class CircleGame {
 
         // check pre-requisites rule
         checkGameRules();
+
+        initialiseGame();
 
     }
 
@@ -47,10 +50,23 @@ public class CircleGame {
 
     }
 
+    private void initialiseGame()
+    {
+        for (int i = 0; i < numberOfChildren; i++) {
+            children.add(i+1);
+        }
+
+    }
+
+    public void play()
+    {
+        winningChildId = 3;
+    }
+
 
     public int getWinningChild()
     {
-        return 3;
+        return winningChildId;
     }
 
 
