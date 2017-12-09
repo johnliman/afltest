@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="com.aflmedia.app.AppTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.aflmedia.app.AppTest" time="0.011" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
@@ -33,7 +33,6 @@
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.13.1"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/johnliman"/>
     <property name="user.timezone" value="Australia/Melbourne"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -58,20 +57,9 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="com.aflmedia.app.AppTest" name="testCircleGame" time="0.002"/>
-  <testcase classname="com.aflmedia.app.AppTest" name="testCircleGameKGreaterThanChildren" time="0.003">
-    <failure message="expected:&lt;3&gt; but was:&lt;7&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;7&gt;
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:201)
-	at junit.framework.Assert.assertEquals(Assert.java:207)
-	at com.aflmedia.app.AppTest.testCircleGameKGreaterThanChildren(AppTest.java:45)
-</failure>
-  </testcase>
+  <testcase classname="com.aflmedia.app.AppTest" name="testCircleGameKGreaterThanChildren" time="0.009"/>
   <testcase classname="com.aflmedia.app.AppTest" name="testCircleGameException" time="0"/>
 </testsuite>

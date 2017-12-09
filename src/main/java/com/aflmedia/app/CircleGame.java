@@ -60,7 +60,21 @@ public class CircleGame {
 
     public void play()
     {
-        winningChildId = 3;
+        int indexOfChild = 0;
+
+        while (children.size() > 1)
+        {
+            indexOfChild = (indexOfChild + knockOutNumber - 1) % children.size();
+
+            System.out.print("Children that leaves the circle: ");
+            System.out.println(children.get(indexOfChild));
+
+            children.remove(indexOfChild);
+
+        }
+        System.out.println();
+
+        winningChildId = children.get(0);
     }
 
 

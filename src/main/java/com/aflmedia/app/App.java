@@ -6,7 +6,7 @@ public class App
     {
 
         try {
-            CircleGame game = new CircleGame(-5, 2);
+            CircleGame game = new CircleGame(5, 2);
             game.play();
 
 
