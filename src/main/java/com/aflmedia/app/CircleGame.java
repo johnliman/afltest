@@ -64,6 +64,8 @@ public class CircleGame {
 
         while (children.size() > 1)
         {
+            printCircleMember(children);
+
             indexOfChild = (indexOfChild + knockOutNumber - 1) % children.size();
 
             System.out.print("Children that leaves the circle: ");
@@ -83,6 +85,15 @@ public class CircleGame {
         return winningChildId;
     }
 
+    private void printCircleMember(ArrayList<Integer> children)
+    {
+        System.out.print("Member of the circle: ");
+        for (Integer child : children)
+        {
+            System.out.print(child + " ");
+        }
+        System.out.println();
+    }
 
 
 }

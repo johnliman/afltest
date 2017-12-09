@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea94606-2b7b-479b-aee3-cab16741d26c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aflmedia/app/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/aflmedia/app/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aflmedia/app/CircleGame.java" afterPath="$PROJECT_DIR$/src/main/java/com/aflmedia/app/CircleGame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,11 +36,11 @@
       <file leaf-file-name="CircleGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aflmedia/app/CircleGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+            <state relative-caret-position="130">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
-                <element signature="e#2351#2352#0" expanded="true" />
-                <element signature="e#2388#2389#0" expanded="true" />
+                <element signature="e#2393#2394#0" expanded="true" />
+                <element signature="e#2430#2431#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -633,12 +632,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512731415039</updated>
-      <workItem from="1512731416525" duration="2554000" />
+      <workItem from="1512731416525" duration="2707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2554000" />
+    <option name="totallyTimeSpent" value="2707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1101" extended-state="6" />
@@ -727,11 +726,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aflmedia/app/CircleGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+        <state relative-caret-position="130">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
+            <element signature="e#2393#2394#0" expanded="true" />
+            <element signature="e#2430#2431#0" expanded="true" />
           </folding>
         </state>
       </provider>
