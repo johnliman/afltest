@@ -11,9 +11,11 @@ public class App
 
             Scanner reader = new Scanner(System.in);  // Reading from System.in
             System.out.println("Enter the number of children: ");
+            // TODO check if the entered is a number
             int n = reader.nextInt();
 
             System.out.println("Enter the k value: ");
+            // TODO check if the entered is a number
             int k = reader.nextInt();
 
             CircleGame game = new CircleGame(n, k);
@@ -25,6 +27,10 @@ public class App
             System.out.println(e.getMessage());
 
         }
+
+
+
+
     }
 
 }
