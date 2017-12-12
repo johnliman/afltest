@@ -1,5 +1,7 @@
 package com.aflmedia.app;
 
+import com.aflmedia.app.number.NumberFactory;
+
 import java.util.Scanner;
 
 public class App
@@ -22,6 +24,13 @@ public class App
             game.play();
 
             System.out.println("The winning child is " + game.getWinningChild());
+
+            System.out.println("Enter a number: ");
+            n = reader.nextInt();
+
+            NumberFactory numberFactory = new NumberFactory(n);
+            numberFactory.printNumbers();
+
 
         } catch (AflMediaException e) {
             System.out.println(e.getMessage());
